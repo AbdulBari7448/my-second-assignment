@@ -125,9 +125,31 @@ span{
 
 }
 
+.some-facts{
+    margin-left: 10%;
+}
+.some-facts-des{
+    margin-top: 15px;
+}
 
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    align-items: center;
+}
+.info{
+    text-align: center;
+    border: 1px solid #FF900E;
+    width: 150px;
 
-
+}
+.info:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.info p{
+    font-size: 10px;
+}
 
 /* Responsive Area  */
 @media only screen and (max-width:576px) {
@@ -158,6 +180,9 @@ span{
     .love-btn{
         top: 60px;
         left: 100px;
+    }
+    .some-facts{
+        margin-top: 30%;
     }
         
 }

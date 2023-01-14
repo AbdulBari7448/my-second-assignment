@@ -177,6 +177,16 @@ span{
 .sponsors-des{
     color: #727272;
 }
+ 
+/* Sponsors Img  */
+.sp-img{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+}
+.sp img{
+    filter: grayscale(100%);
+}
 
 /* Responsive Area  */
 @media only screen and (max-width:576px) {
@@ -201,7 +211,7 @@ span{
         margin-top: 40px;
     }
 
-    .our-features, .love-and-enjoy, .info-container{
+    .our-features, .love-and-enjoy, .info-container, .sp-img{
         flex-direction: column;
     }
     .love-btn{

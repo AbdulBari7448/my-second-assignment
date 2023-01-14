@@ -242,5 +242,12 @@ span{
         margin-left: 100px;
         gap: 20px;
     }
+    .footer{
+        width: 200px;
+        flex-direction: column;
+        margin-right: 50%;
+        margin-left: 10%;
+
+    }
         
 }

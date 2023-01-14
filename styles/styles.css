@@ -1,0 +1,163 @@
+/* Common Styles  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header Styles  */
+header{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.nav-title{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+.brand{
+    margin-top: 102px;
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+
+}
+.brand-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.primary-btn{
+    padding: 16px;
+    margin-top: 20px;
+    background-color: #FF900E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+.banner{
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 30px;
+
+}
+
+/* Our-Features Styles */
+.our-features{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+   margin-left: 140px;
+
+}
+.features-description{
+    margin-top: 250px;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+.features-title{
+    color: #131313;
+}
+span{
+    color: #727272;
+}
+.features-title-2{
+    color: #FF900E;
+}
+.features-about{
+    margin-top: 24px;
+}
+/* Love-And-Enjoy */
+.love-and-enjoy{
+    display: flex;
+    margin-top: 100px;
+    gap: 54px;
+}
+.love{
+    margin-left: 7%;
+}
+.love-and-enjoy-title{
+    border-left: 3px solid #FF900E;
+    
+}
+.love-and-enjoy-description{
+    margin-top: 20px;
+}
+.enjoy{
+    margin: 10%;
+    box-shadow: #727272;
+}
+.love-enjoy-img{
+   margin-right: 150px;
+}
+.love-btn{
+    background-color: #FF900E;
+    color: #fff;
+    width: 190px;
+    height: 130px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -70px;
+    right: 50px;
+}
+.btn{
+    color: #fff;
+   font-weight: 700;
+   font-size: 40px;
+
+}
+
+
+
+
+
+/* Responsive Area  */
+@media only screen and (max-width:576px) {
+    .header, .nav-title{
+        flex-direction: column;
+    }
+    .brand{
+        margin-left: 100px;
+    }
+    .banner{
+        margin-left: 80px;
+    }
+    .features{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-left: 20%;
+    }
+    .features-description{
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 40px;
+    }
+
+    .our-features, .love-and-enjoy{
+        flex-direction: column;
+    }
+    .love-btn{
+        top: 60px;
+        left: 100px;
+    }
+        
+}

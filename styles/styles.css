@@ -47,8 +47,8 @@ header{
 
 }
 .banner{
-    width: 60%;
-    margin-left: 300px;
+    width: 80%;
+    margin-left: 140px;
     margin-top: 30px;
 
 }
@@ -139,11 +139,15 @@ span{
 /* some-facts */
 
 .some-facts{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 10%;
+}
+.some-facts-title{
+    margin-bottom: 15px;
 }
 .some-facts-des{
     color: #727272;
+    
     
 }
 /* info-container  */
@@ -157,6 +161,7 @@ span{
     text-align: center;
     border: 1px solid #FF900E;
     width: 150px;
+    padding: 30px;
     
 
 }
@@ -211,12 +216,16 @@ span{
 @media only screen and (max-width:576px) {
     .header, .nav-title{
         flex-direction: column;
+        margin-left: 0;
+        margin: 0;
     }
     .brand{
         margin-left: 100px;
     }
+    
     .banner{
-        margin-left: 80px;
+        width: 100vh;
+        margin: 0;
     }
     .features{
         width: 100%;

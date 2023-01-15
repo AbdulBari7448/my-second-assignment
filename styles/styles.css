@@ -99,6 +99,7 @@ span{
 
     border-left: 3px solid #FF900E;
     
+    
 }
 .love-and-enjoy-description {
     margin-top: 20px;
@@ -162,11 +163,13 @@ span{
     border: 1px solid #FF900E;
     width: 150px;
     padding: 30px;
+    transition: 2s, transform 1s;
     
 
 }
 .info:hover{
     background-color:  #FF900E;
+    transform: rotate(60deg);
     
     
 }
@@ -199,15 +202,27 @@ span{
 /* Footer  */
 .footer{
     display: flex;
-    width: 620px;
+    width: 80%;
     height: 80px;
     margin: 70px;
     background-color: #FFF4E7;
-    align-items:  center;
+   text-align:  center;
     justify-content: center;
     margin-left: 30%;
     
 }
+/* Location  */
+.location{
+    margin-top: 50px;
+    
+    padding: 4%;
+    background-color: #424242;
+    color: #fff;
+}
+.location hr{
+    width: 400px;
+}
+/* Footer Styles  */
 .footer-title{
     color: #424242;
 }
@@ -256,7 +271,7 @@ span{
         gap: 20px;
     }
     .footer{
-        width: 200px;
+       
         flex-direction: column;
         margin-right: 50%;
         margin-left: 10%;

@@ -96,6 +96,7 @@ span{
     margin-left: 7%;
 }
 .love-and-enjoy-title{
+
     border-left: 3px solid #FF900E;
     
 }
@@ -103,8 +104,11 @@ span{
     margin-top: 20px;
 }
 .enjoy{
-    margin: 10%;
-    box-shadow: #727272;
+    margin: 4%;
+    box-shadow: 5px 10px 18px #888888;
+}
+.enjoy-description, .enjoy-title{
+    padding: 10px;
 }
 .love-enjoy-img{
    margin-right: 150px;

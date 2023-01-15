@@ -207,8 +207,9 @@ span{
     margin: 70px;
     background-color: #FFF4E7;
    text-align:  center;
+   align-items: center;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 9%;
     
 }
 /* Location  */
@@ -223,6 +224,7 @@ span{
     width: 400px;
 }
 /* Footer Styles  */
+
 .footer-title{
     color: #424242;
 }
